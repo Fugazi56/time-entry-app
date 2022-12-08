@@ -288,3 +288,13 @@ a:hover{
 @media (max-width:767px){
   #detailForm{max-width: 100%;}
 }
+.modal-dialog{
+  max-width: 762px;
+  border-radius: 10px;
+}
+.modal-body{
+  padding: 49px 54px;
+}
+.modal-open #detailForm{
+  filter: blur(3px);
+}
